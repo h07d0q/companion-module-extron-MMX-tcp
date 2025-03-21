@@ -1,20 +1,25 @@
 {
 	"name": "extron-mmx-tcp",
-	"version": "2.1.3",
+	"version": "1.0.0",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "prettier -w .",
+		"package": "companion-module-build"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-generic-tcp-udp.git"
+		"url": "git+https://github.com/bitfocus/companion-module-extron-mmx-tcp.git"
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@companion-module/base": "^1.8.0"
+		"@companion-module/base": "~1.11.2"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^1.5.0"
-	}
+		"@companion-module/tools": "^2.1.1",
+		"prettier": "^3.4.2"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json",
+	"packageManager": "yarn@4.5.3"
 }

@@ -3,10 +3,10 @@
 	"name": "extron-mmx-tcp",
 	"shortname": "extron-mmx",
 	"description": "Extron® MMX AV Switcher",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-generic-tcp-udp.git",
-	"bugs": "https://github.com/bitfocus/companion-module-generic-tcp-udp/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-extron-mmx-tcp.git",
+	"bugs": "https://github.com/bitfocus/companion-module-extron-mmx-tcp/issues",
 	"maintainers": [
 		{
 			"name": "Eugen Hottmann",
@@ -15,7 +15,7 @@
 	],
 	"legacyIds": [],
 	"runtime": {
-		"type": "node18",
+		"type": "node22",
 		"api": "nodejs-ipc",
 		"apiVersion": "0.0.0",
 		"entrypoint": "../index.js"
